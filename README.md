@@ -7,16 +7,6 @@ Created by
 Noah Deda
 Callum Pearson-Dunaj
 Liam Coyle
-Blake Lewis
-Harrison Atchley
-
-
-## CSC 450-fa23-project-team-8 Pyschology Project
-
-Created by
-Noah Deda
-Callum Pearson-Dunaj
-Liam Coyle
 Harrison Atchley
 
 Testing Library
