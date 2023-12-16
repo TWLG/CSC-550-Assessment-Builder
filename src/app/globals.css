@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css colors*/
+:root {
+  --light-primary-color: #324a62;
+  --light-secondary-color: #547da6;
+  --light-background-color: #212121;
+  --light-background-color2: #ffffff;
+  --light-accent-color: #c77633;
+  --light-text-color: black;
+  --light-text-color2: white;
+
+  --dark-primary-color: #9db5cd;
+  --dark-secondary-color: #2997ad;
+  --dark-background-color: #212121;
+  --dark-background-color2: #ffffff;
+  --dark-accent-color: #5982ab;
+  --dark-text-color: black;
+  --dark-text-color2: white;
+
+  --retro-primary-color: #653c1a;
+  --retro-secondary-color: #e5f3d2;
+  --retro-background-color: #ffffff;
+  --retro-background-color2: #ffffff;
+  --retro-accent-color: #c77633;
+  --retro-text-color: #0a1b29;
+  --retro-text-color2: white;
+
+  --mint-primary-color: #37d789;
+  --mint-secondary-color: #ccd2f5;
+  --mint-background-color: #ffffff;
+  --mint-background-color2: #ffffff;
+  --mint-accent-color: #16a966;
+  --mint-text-color: #2b080e;
+  --mint-text-color2: white;
+}
+
+.light-theme {
+  --primary-color: var(--light-primary-color);
+  --secondary-color: var(--light-secondary-color);
+  --background-color: var(--light-background-color);
+  --background-color2: var(--light-background-color2);
+  --accent-color: var(--light-accent-color);
+  --text-color: var(--light-text-color);
+  --text-color2: var(--light-text-color2);
+}
+.dark-theme {
+  --primary-color: var(--dark-primary-color);
+  --secondary-color: var(--dark-secondary-color);
+  --background-color: var(--dark-background-color);
+  --background-color2: var(--dark-background-color2);
+  --accent-color: var(--dark-accent-color);
+  --text-color: var(--dark-text-color);
+  --text-color2: var(--dark-text-color2);
+}
+
+.retro-theme {
+  --primary-color: var(--retro-primary-color);
+  --secondary-color: var(--retro-secondary-color);
+  --background-color: var(--retro-background-color);
+  --background-color2: var(--retro-background-color2);
+  --accent-color: var(--retro-accent-color);
+  --text-color: var(--retro-text-color);
+  --text-color2: var(--retro-text-color2);
+}
+
+.mint-theme {
+  --primary-color: var(--mint-primary-color);
+  --secondary-color: var(--mint-secondary-color);
+  --background-color: var(--mint-background-color);
+  --background-color2: var(--mint-background-color2);
+  --accent-color: var(--mint-accent-color);
+  --text-color: var(--mint-text-color);
+  --text-color2: var(--mint-text-color2);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  color-scheme: light;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

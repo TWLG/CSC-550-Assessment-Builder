@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\admin_page",
+    "\\src\\app\\assessment_builder",
+    "\\src\\app\\assessment_page",
+    "\\src\\app\\chooseAssessment_page",
+    "\\src\\app\\publish_page",
+    "\\src\\app\\upload_page"
+  ],
+  "SelectedNode": "\\src\\app\\clinician_page\\styles.module.css",
+  "PreviewInSolutionExplorer": false
+}
